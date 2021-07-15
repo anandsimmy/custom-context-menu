@@ -37,5 +37,22 @@
   position: absolute;
   height: auto;
   width: fit-content;
+  border-radius: 4px;
   background-color: white;
+}
+
+.optionsList {
+  padding: 12px;
+  min-width: 107px;
+}
+
+.optionListItem {
+  padding: 4px;
+  border-radius: 3px;
+  list-style-type: none;
+}
+
+.optionListItem:hover {
+  cursor: pointer;
+  background-color: aqua;
 }
