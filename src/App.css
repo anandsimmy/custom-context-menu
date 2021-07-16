@@ -37,13 +37,12 @@
   position: absolute;
   height: auto;
   width: fit-content;
-  border-radius: 4px;
-  background-color: white;
 }
 
 .optionsList {
   padding: 12px;
   min-width: 107px;
+  border-radius: 4px;
 }
 
 .optionListItem {
@@ -54,5 +53,36 @@
 
 .optionListItem:hover {
   cursor: pointer;
+}
+
+.customContextmenuArea1ListWrapper {
   background-color: aqua;
+}
+
+.customContextmenuArea1ListItem {
+  list-style-type: disclosure-closed;
+}
+
+.customContextmenuArea1ListItem:hover {
+  background-color: sandybrown;
+}
+
+.customContextmenuArea2ListWrapper {
+  background-color: sandybrown;
+}
+
+.customContextmenuArea2ListItem:hover {
+  background-color: tomato;
+}
+
+.customContextmenuArea3ListWrapper {
+  background-color: tomato;
+}
+
+.customContextmenuArea3ListItem {
+  list-style-type: disc;
+}
+
+.customContextmenuArea3ListItem:hover {
+  background-color: powderblue;
 }
