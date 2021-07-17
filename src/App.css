@@ -68,7 +68,11 @@
 }
 
 .customContextmenuArea2ListWrapper {
-  background-color: sandybrown;
+  background-color: #5e35b1;
+}
+
+.customContextmenuArea2ListItem {
+  color: white;
 }
 
 .customContextmenuArea2ListItem:hover {
@@ -76,7 +80,7 @@
 }
 
 .customContextmenuArea3ListWrapper {
-  background-color: tomato;
+  background-color: #ffeb3b;
 }
 
 .customContextmenuArea3ListItem {
